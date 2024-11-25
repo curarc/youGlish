@@ -23,11 +23,12 @@ function loadLanguageFile(language) {
 // Function to update UI text
 function updateUIText(translations) {
   document.title = translations.title; // Update the page title
+  document.getElementById('title').textContent = translations.title; 
   document.getElementById('searchButton').textContent = translations.search;
   document.getElementById('prevButton').textContent = translations.previous;
   document.getElementById('nextButton').textContent = translations.next;
   document.getElementById('resultsLabel').textContent = translations.results;
-  document.getElementById('searchInput').placeholder = translations.enter_word;
+  document.getElementById('searchInput').placeholder = translations.enter_word; 
 }
 
 // Detect browser language and load translations

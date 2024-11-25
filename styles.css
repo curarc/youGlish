@@ -87,9 +87,8 @@ button:hover {
 }
 
 .stats {
-  text-align: center;
+  min-width: 120px;
   color: #666;
   font-size: 14px;
-  margin-top: 5px;
-  flex-shrink: 0;
+  align-content: center;
 }

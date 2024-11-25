@@ -6,7 +6,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>YouGlish Word Explorer</h1>
+      <h1 id="title">YouGlish Word Explorer</h1>
       <div class="search-container">
         <input type="text" id="searchInput" placeholder="Enter word or phrase" />
         <button id="searchButton">Search</button>
@@ -16,10 +16,10 @@
       </div>
       <div class="controls">
         <button id="prevButton">Previous</button>
+        <div class="stats">
+            <span id="resultCount"></span>
+          </div>
         <button id="nextButton">Next</button>
-      </div>
-      <div class="stats">
-        <span id="resultCount"></span>
       </div>
     </div>
     <script src="popup.js"></script>
