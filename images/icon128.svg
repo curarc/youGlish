@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景圆 -->
+    <circle cx="64" cy="64" r="60" fill="#4285f4"/>
+    
+    <!-- 语音波纹效果 -->
+    <path d="M 30 64 Q 64 20, 98 64" stroke="white" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M 35 64 Q 64 30, 93 64" stroke="white" stroke-width="4" fill="none" opacity="0.8"/>
+    <path d="M 40 64 Q 64 40, 88 64" stroke="white" stroke-width="4" fill="none"/>
+    
+    <!-- YG文字 -->
+    <text x="64" y="75" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">YG</text>
+    
+    <!-- 装饰性引号 -->
+    <path d="M 45 45 L 50 40 L 55 45" stroke="white" stroke-width="3" fill="none"/>
+    <path d="M 73 45 L 78 40 L 83 45" stroke="white" stroke-width="3" fill="none"/>
+</svg>
